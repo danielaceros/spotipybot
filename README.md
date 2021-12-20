@@ -2,7 +2,7 @@
 A BOT who allows you to play with SPOTIFY API, adding some tracks, creating playlist or getting tracked about de songs you are playing in REALTIME.
 
 # Getting Started
-Install NECESARY MODULES, if you don't have it:
+Install NECESARY MODULES, if you don't have it and download de .py file called 'spotipybot.py':
 * pip install pandas
 * pip install requests
 * pip install urllib3
@@ -12,7 +12,6 @@ Install NECESARY MODULES, if you don't have it:
 * pip install datetime
 * pip install plotly
 * pip install tqdm
-And download de .py file called 'spotipybot.py'
 # Running Code
 Run from IDE or from PowerShell or instead Comand Prompt
 * python spotipybot.py

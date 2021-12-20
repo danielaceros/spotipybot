@@ -12,11 +12,10 @@ Install NECESARY MODULES, if you don't have it:
 * pip install datetime
 * pip install plotly
 * pip install tqdm
-
+And download de .py file called 'spotipybot.py'
 # Running Code
 Run from IDE or from PowerShell or instead Comand Prompt
 * python spotipybot.py
-or
 * python3 spotipybot.py
 
 # Auth

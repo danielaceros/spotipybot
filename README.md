@@ -4,14 +4,14 @@ A BOT who allows you to play with SPOTIFY API
 # Getting Started
 Install NECESARY MODULES, if you don't have it
 * pip install pandas
-*pip install requests
-*pip install urllib3
-*pip install socket
--pip install keyboard
--pip install spotipy
--pip install datetime
--pip install plotly
--pip install tqdm
+* pip install requests
+* pip install urllib3
+* pip install socket
+* pip install keyboard
+* pip install spotipy
+* pip install datetime
+* pip install plotly
+* pip install tqdm
 
 # Running Code
 Run from IDE or from PowerShell or instead Comand Prompt

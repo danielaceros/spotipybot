@@ -1,5 +1,5 @@
 # spotipybot
-A BOT who allows you to play with SPOTIFY API
+A BOT who allows you to play with SPOTIFY API, adding some tracks, creating playlist or getting tracked about de songs you are playing in REALTIME.
 
 # Getting Started
 Install NECESARY MODULES, if you don't have it:
@@ -20,7 +20,7 @@ or
 * python3 spotipybot.py
 
 # Auth
-You will see an AUTH WINDOW, then you have to put, (you can get it through Spotify API DEVELOPERS):
+You will see an AUTH FLOW WINDOW, then you have to put, (you can get it through Spotify API DEVELOPERS):
 * CLIENT ID = Your CLIENT ID ej. '9c9e0o8ef5174g04322ce51se59d6e2b'
 * CLIENT SECRET = Your CLIENT SECRET ej. '2g27570068954e63b958e36d9dd3b879'
 * USERNAME = Your USERNAME CODE NUMBER or instead the NAME ej. 'danielacero'

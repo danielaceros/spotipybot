@@ -22,16 +22,15 @@ dt = datetime.now().strftime('%Y-%m-%d_%H-%M')
 
 # authentication by 'token'
 def token(cid, csecret, user, ruri):
-    if os.path.exists(".cache-danielacero"):
-        os.remove(".cache-danielacero")
+    if os.path.exists(f".cache-{user}"):
+        os.remove(f".cache-{user}")
     if not os.path.exists("csv"):
         os.mkdir("csv")
     SPOTIPY_CLIENT_ID = cid
     SPOTIPY_CLIENT_SECRET = csecret
-    os.environ['SPOTIPY_CLIENT_ID']= cid # '3c9e0b8ef5174f04994ce51ee59d6e2a'
-    os.environ['SPOTIPY_CLIENT_SECRET']= csecret # '3a27770068954e63b058e96d9dd3b879'
-    scope = 'user-read-recently-played playlist-modify-public user-top-read user-read-playback-state user-read-private'
-    # "http://localhost:8888/callback"
+    os.environ['SPOTIPY_CLIENT_ID']= cid # client-id
+    os.environ['SPOTIPY_CLIENT_SECRET']= csecret # client-secret
+    scope = 'user-read-recently-played playlist-modify-public user-top-read user-read-playback-state user-read-private' # scopes, you can modify it at all
     token = util.prompt_for_user_token(user, scope,
                                     SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET,
                                     redirect_uri=ruri)
@@ -284,25 +283,21 @@ def authgui():
                                                                                                                                                                                                     
  """)
     global cid
-#     cid = input("""
-#  [ClientInput] Enter your CLIENT ID
-#  > """)
+    cid = input("""
+ [ClientInput] Enter your CLIENT ID
+ > """)
     global csecret
-#     csecret = input("""
-#  [ClientInput] Enter your CLIENT SECRET
-#  > """)
+    csecret = input("""
+ [ClientInput] Enter your CLIENT SECRET
+ > """)
     global user
-#     user = input("""
-#  [ClientInput] Enter your USERNAME
-#  > """)
+    user = input("""
+ [ClientInput] Enter your USERNAME
+ > """)
     global ruri
-#     ruri = input("""
-#  [ClientInput] Enter your REDIRECT URL
-#  > """)
-    cid = "3c9e0b8ef5174f04994ce51ee59d6e2a"
-    csecret = "3a27770068954e63b058e96d9dd3b879"
-    user = "danielacero"
-    ruri = "http://localhost:8888/callback"
+    ruri = input("""
+ [ClientInput] Enter your REDIRECT URL
+ > """)
     try:
         print("[ClientOAuth] Trying to AUTHENTICATE...")
         for i in tqdm(range(100)):

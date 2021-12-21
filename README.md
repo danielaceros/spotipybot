@@ -33,4 +33,4 @@ You will see the MAIN WINDOW, then you can chose between
 * 5-Show all user PLAYLISTS
 * 6-Show saved user TRACKS
 * 7-Get user's TOP TRACKS
-^* 8-EXIT
+* 8-EXIT

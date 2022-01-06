@@ -50,3 +50,5 @@ You will see the MAIN WINDOW, then you can chose between
 * 6-Show saved user TRACKS
 * 7-Get user's TOP TRACKS
 * 8-EXIT
+## License
+[GPL](https://choosealicense.com/licenses/gpl-3.0/)

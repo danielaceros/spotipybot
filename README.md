@@ -16,20 +16,23 @@ A BOT who allows you to play with SPOTIFY API, adding some tracks, creating play
 
 # Getting Started
 Install NECESARY MODULES, if you don't have it and download de .py file called 'spotipybot.py':
-* pip install pandas
-* pip install requests
-* pip install urllib3
-* pip install socket
-* pip install keyboard
-* pip install spotipy
-* pip install datetime
-* pip install plotly
-* pip install tqdm
+```bash
+pip install pandas
+pip install requests
+pip install urllib3
+pip install socket
+pip install keyboard
+pip install spotipy
+pip install datetime
+pip install plotly
+pip install tqdm
+```
 # Running Code
 Run from IDE or from PowerShell or instead Comand Prompt
-* python spotipybot.py
-* python3 spotipybot.py
-
+```bash
+python spotipybot.py
+python3 spotipybot.py
+```
 # Auth
 You will see an AUTH FLOW WINDOW, then you have to put, (you can get it through Spotify API DEVELOPERS):
 * CLIENT ID = Your CLIENT ID ej. '9c9e0o8ef5174g04322ce51se59d6e2b'
